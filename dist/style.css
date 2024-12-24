@@ -25,6 +25,7 @@
   padding: 10px;
   box-shadow: 0 2px 2px 2px #ccc;
   transition: 0.5s ease;
+  animation: hanif-toggle 0.5s ease;
 }
 
 .hanif-toggle {
@@ -123,5 +124,14 @@ button:hover {
   button {
     padding: 5px;
     font-size: 16px;
+  }
+}
+
+@keyframes hanif-toggle {
+  0% {
+    transform: translateY(-600px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }

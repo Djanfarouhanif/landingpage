@@ -9,11 +9,32 @@
 .home {
   padding: 20px;
   width: 100%;
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
+.hanif {
+  position: fixed;
+  width: 500px;
+
+  background-color: white;
+  top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 2px 2px #ccc;
+  transition: 0.5s ease;
+}
+
+.hanif-toggle {
+  transform: translateY(-600px);
+  transition: 0.5s ease;
+}
+
+a {
+  text-decoration: none;
+}
 span {
   color: #ec520bdc;
 }
